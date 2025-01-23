@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Post Name"
+title:  "First Post"
 description: Short yet informative description
 image: /assets/img/blog-image.jpg
 ---
