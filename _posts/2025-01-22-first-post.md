@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First Post"
-description: Short yet informative description
+description: My first blog post!
 image: /assets/img/blog-image.jpg
 ---
 
