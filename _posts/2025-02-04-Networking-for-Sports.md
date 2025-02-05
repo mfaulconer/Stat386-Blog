@@ -16,7 +16,7 @@ Starting from scratch may seem intimidating, but meeting people who are working 
 The first important connection I made was with one of the statisticians for the Sacramento Kings. By just sharing my interests with friends and family, I was able to meet someone who knew Zach and was willing to give me his phone number. After speaking with him on the phone, I received useful advice for furthering my career in sports analytics. Just one connection has gone a long way!
 
 ### LinkedIn
-Setting up a LinkedIn profile is important for any career path, and a perfect way to make connections with people who can help you further your career. LinkedIn provides a space for you to post your accomplishments in school, personal projects, and important career events. To start your profile, visit <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>. 
+Setting up a LinkedIn profile is important for any career path, and a perfect way to make connections with people who can help you further your career. LinkedIn provides a space for you to post your accomplishments in school, personal projects, and important career events. To start your profile, visit <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a> . 
 
 Important sections to complete include:
 - Profile picture and intro: Use a professional headshot for your profile picture. If you do not have one on hand, you can pose against a wall or any plain background. Your headshot only needs to include your shoulders and up, so smile! At the top of your profile, you will also want to fill out basic information to appear in your banner. You can edit the info at anytime using the pencil tool in the upper right corner.
