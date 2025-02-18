@@ -82,5 +82,5 @@ Here is a list of online databases where you can access sports datasets for pers
 
 
 ## Conclusion
-From football to swimming, data science is now being used more than ever to improve player productivity and team success. By mastering data visualization and modeling—and building the right connections—you can be more than just a spectator. You can be a game-changer on a championship-winning team.
+From football to swimming, data science is now being used more than ever to improve player productivity and team success. By mastering data visualization and modeling—and building the right connections—you can be more than just a spectator. You can be a game-changer on a championship-winning team. Don't wait to start training your data muscles!
 
