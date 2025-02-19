@@ -36,7 +36,7 @@ Once your profile is set up, it is time to make connections! Feel free to add an
 Whenever you start a new job, hit a milestone, or complete a project, share it on your profile! Sharing your accomplishments is so important. When you share your LinkedIn profile with potential employers, they will be able to see all the hard work you've done!
 ![Posts](https://mfaulconer.github.io/Stat386-Blog/assets/img/LinkedInPosts.png)
 
-### Clubs and Activities
+#### Clubs and Activities
 Joining on campus clubs can be a great way to make connections with other students and guest speakers. These clubs often have guest speakers who are looking for interns, research assistants, or can offer valuable advice. 
 The BYU Sports Analytics Association frequently has alumni share their schooling and career experiences. They also have competitions and project prompts that can help you build your portfolio in sports analysis.
 
