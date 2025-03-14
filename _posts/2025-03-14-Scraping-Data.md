@@ -27,12 +27,31 @@ To replicate my epic webscraping, you will first need to download the correct pa
 Selenium helps scrape dynamic content that is often displayed by JavaScript. The nature of the tables I was extracting was in fact dynamic, so Selenium helped me to grab all that I needed! Here are all the packages I used.
 ![Packages](https://mfaulconer.github.io/Stat386-Blog/assets/img/packages.png)
 
-Once I had Selenium to help me set up my drivers for the JavaScript based website, I could use the same HTML skills that we practiced in class. It wasn't too different at all! I collected data from 2022-2024 for both the NBA Combine tests, and the NBA Draft History. I grabbed all the data from each table and saved it as a dataframe. 
+Once I had Selenium to help me set up my drivers for the JavaScript based website, I could use the same HTML skills that we practiced in class. It wasn't too different at all! I collected data from 2021-2024 for both the NBA Combine tests, and the NBA Draft History. I grabbed all the data from each table and saved it as a dataframe. 
 ![Webdriver](https://mfaulconer.github.io/Stat386-Blog/assets/img/webdriver.png)
 
 
-Once I had everything I needed, I combined all the frames into my one big frame! I did this by using concat to stack the similar datasets (NBA Combine, NBA Draft). Once I had 2022-2024 NBA Combine and 2022-2024 NBA Draft in their two seperate dataframes, I made sure the variable types were what I needed, and merged the frames based on "Player Name" and "Year". That's it!
+Once I had everything I needed, I combined all the frames into my one big frame! I did this by using concat to stack the similar datasets (NBA Combine, NBA Draft). Once I had 2021-2024 NBA Combine and 2021-2024 NBA Draft in their two seperate dataframes, I made sure the variable types were what I needed, and merged the frames based on "Player Name" and "Year". That's it!
 
 ## Final Dataset
+The final dataset I am working with includes all combine participants from 2021-2024, regardless of whether or not they were drafted. I used a left join draft results to those players who were selected in the NBA Draft.
 
+There are a total of 237 observations and 13 variables in the dataset.
+
+Variables                         Type
+Player                            object 
+POS                               object 
+Lane Agility Time (seconds)       float64 
+Shuttle Run (seconds)             float64 
+Three Quarter Sprint (seconds)    float64 
+Standing Vertical Leap (inches)   float64 
+Max Vertical Leap (inches)        float64 
+Year                              int64 
+Team                              object 
+Affiliation                       object 
+RoundNumber                       float64 
+RoundPick                         float64 
+OverallPick                       float64
+
+In various observations, there are some missing values. Not everyone opts in t0 participate in every strength test, but I do not want to remove those observations from the dataset, as their other results are relevant to my analysis. These missing at random values are currently left as N/A. For variables that came from the draft history, the objects (Team, Affiliation) were left as N/A, and the numeric variables (RoundNumber, RoundPick, OverallPick) were filled in with "0".
 
