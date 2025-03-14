@@ -27,4 +27,12 @@ To replicate my epic webscraping, you will first need to download the correct pa
 Selenium helps scrape dynamic content that is often displayed by JavaScript. The nature of the tables I was extracting was in fact dynamic, so Selenium helped me to grab all that I needed! Here are all the packages I used.
 ![Packages](https://mfaulconer.github.io/Stat386-Blog/assets/img/packages.png)
 
+Once I had Selenium to help me set up my drivers for the JavaScript based website, I could use the same HTML skills that we practiced in class. It wasn't too different at all! I collected data from 2022-2024 for both the NBA Combine tests, and the NBA Draft History. I grabbed all the data from each table and saved it as a dataframe. 
+![Webdriver](https://mfaulconer.github.io/Stat386-Blog/assets/img/webdriver.png)
+
+
+Once I had everything I needed, I combined all the frames into my one big frame! I did this by using concat to stack the similar datasets (NBA Combine, NBA Draft). Once I had 2022-2024 NBA Combine and 2022-2024 NBA Draft in their two seperate dataframes, I made sure the variable types were what I needed, and merged the frames based on "Player Name" and "Year". That's it!
+
+## Final Dataset
+
 
