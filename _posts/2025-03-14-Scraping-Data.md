@@ -55,3 +55,15 @@ OverallPick                       float64
 
 In various observations, there are some missing values. Not everyone opts in t0 participate in every strength test, but I do not want to remove those observations from the dataset, as their other results are relevant to my analysis. These missing at random values are currently left as N/A. For variables that came from the draft history, the objects (Team, Affiliation) were left as N/A, and the numeric variables (RoundNumber, RoundPick, OverallPick) were filled in with "0".
 
+## Quick EDA
+To start exploring the data, I wanted to look at boxplots of the five NBA Strength Combine testing seperated by draft round pick. "0" is undrafted, "1" is first round, and "2" is second round!
+
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/LaneAgility.html" width="600" height="400"></iframe>
+
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/ShuttleRun.html" width="600" height="400"></iframe>
+
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/3QSprint.html" width="600" height="400"></iframe>
+
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/ApproachJump.html" width="600" height="400"></iframe>
+
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/StandJump.html" width="600" height="400"></iframe>
