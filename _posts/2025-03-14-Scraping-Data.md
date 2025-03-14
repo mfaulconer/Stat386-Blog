@@ -67,3 +67,7 @@ To start exploring the data, I wanted to look at boxplots of the five NBA Streng
 <iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/ApproachJump.html" width="600" height="400"></iframe>
 
 <iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/StandJump.html" width="600" height="400"></iframe>
+
+Each of the graphs shows that there is not an obvious difference in performance amongst the first and second round picks or those who were undrafted. Lane Agility and Shuttle Run tests actually do see a slight higher median than either draft groups. The second round picks are slightly higher in the Three Quarter Sprint, and both the first and second round picks are higher than undrafted players in the jump categories, but practically the same.
+
+This brief EDA does bring some interesting questions. If many of the performances between drafted and undrafted players are similar, then they may not have any impact on draft decisions at all. If you have two identical performers, and one player is drafted while the other isn't, there are likely other confoudning variables that GMs are using to determine which players will be added to their team each year.
