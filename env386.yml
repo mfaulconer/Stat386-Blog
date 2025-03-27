@@ -1,0 +1,33 @@
+name: env386
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - beautifulsoup4
+  - hdf5
+  - html5lib
+  - ipykernel
+  - ipython
+  - jupyter
+  - matplotlib
+  - nltk
+  - notebook
+  - numpy
+  - openpyxl
+  - pandas
+  - pillow
+  - plotly
+  - plotnine
+  - python=3.12
+  - requests
+  - scikit-learn
+  - scipy
+  - seaborn
+  - statsmodels
+  - streamlit
+  - pingouin
+  - selenium
+  - webdriver-manager
+  - patchworklib
+  - pylatex
+

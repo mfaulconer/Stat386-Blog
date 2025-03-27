@@ -22,7 +22,7 @@ A good first place to look is the Terms of Use. When I looked at the NBA.com Ter
 Another place to double check for scraping is on a websites 'robots.txt' file. Every website has a robots.txt file that tells web crawlers what parts of the website are off-limits. I checked the NBA's robots.txt, the draft statistics path is allowed to be scraped by User-Agents GPTBot and Google-Extended. Great! Everything is all set!
 
 ## Time to Jam (Scrape)
-To replicate my epic webscraping, you will first need to download the correct packages. The NBA website has their Combine and Draft History data seperated by year, and you have to go in and click the pages you want and adjust the filters to see all the data in one page. This caused a real pain for my simpe HTML requests. After much consultation with a good friend named Generative AI, I learned that I needed to use a package called Selenium.
+To replicate my epic webscraping, you will first need to download the correct packages. The NBA website has their Combine and Draft History data separated by year, and you have to go in and click the pages you want and adjust the filters to see all the data in one page. This caused a real pain for my simple HTML requests. After much consultation with a good friend named Generative AI, I learned that I needed to use a package called Selenium.
 
 Selenium helps scrape dynamic content that is often displayed by JavaScript. The nature of the tables I was extracting was in fact dynamic, so Selenium helped me to grab all that I needed! Here are all the packages I used.
 ![Packages](https://mfaulconer.github.io/Stat386-Blog/assets/img/packages.png)
@@ -34,26 +34,29 @@ Once I had Selenium to help me set up my drivers for the JavaScript based websit
 Once I had everything I needed, I combined all the frames into my one big frame! I did this by using concat to stack the similar datasets (NBA Combine, NBA Draft). Once I had 2021-2024 NBA Combine and 2021-2024 NBA Draft in their two seperate dataframes, I made sure the variable types were what I needed, and merged the frames based on "Player Name" and "Year". That's it!
 
 ## Final Dataset
+ My final dataset can be found on my github <a href="https://github.com/mfaulconer/Stat386ProjCode" target="_blank">here</a>!
+
 The final dataset I am working with includes all combine participants from 2021-2024, regardless of whether or not they were drafted. I used a left join draft results to those players who were selected in the NBA Draft.
 
 There are a total of 237 observations and 13 variables in the dataset.
 
-Variables                         Type
-Player                            object 
-POS                               object 
-Lane Agility Time (seconds)       float64 
-Shuttle Run (seconds)             float64 
-Three Quarter Sprint (seconds)    float64 
-Standing Vertical Leap (inches)   float64 
-Max Vertical Leap (inches)        float64 
-Year                              int64 
-Team                              object 
-Affiliation                       object 
-RoundNumber                       float64 
-RoundPick                         float64 
-OverallPick                       float64
+| Variables | Type |
+|-----------|------|
+| Player | object | 
+| POS | object | 
+| Lane Agility Time (seconds) | float64 |
+| Shuttle Run (seconds) | float64 |
+| Three Quarter Sprint (seconds) | float64 |
+| Standing Vertical Leap (inches) | float64 |
+| Max Vertical Leap (inches) float64 |
+| Year | int64 |
+| Team | object |
+| Affiliation | object |
+| RoundNumber | float64 |
+| RoundPick | float64 |
+| OverallPick | float64 |
 
-In various observations, there are some missing values. Not everyone opts in t0 participate in every strength test, but I do not want to remove those observations from the dataset, as their other results are relevant to my analysis. These missing at random values are currently left as N/A. For variables that came from the draft history, the objects (Team, Affiliation) were left as N/A, and the numeric variables (RoundNumber, RoundPick, OverallPick) were filled in with "0".
+In various observations, there are some missing values. Not everyone opts in to participate in every strength test, but I do not want to remove those observations from the dataset, as their other results are relevant to my analysis. These missing at random values are currently left as N/A. For variables that came from the draft history, the objects (Team, Affiliation) were left as N/A, and the numeric variables (RoundNumber, RoundPick, OverallPick) were filled in with "0".
 
 ## Quick EDA
 To start exploring the data, I wanted to look at boxplots of the five NBA Strength Combine testing seperated by draft round pick. "0" is undrafted, "1" is first round, and "2" is second round!
@@ -70,10 +73,8 @@ To start exploring the data, I wanted to look at boxplots of the five NBA Streng
 
 Each of the graphs shows that there is not an obvious difference in performance amongst the first and second round picks or those who were undrafted. Lane Agility and Shuttle Run tests actually do see a slight higher median than either draft groups. The second round picks are slightly higher in the Three Quarter Sprint, and both the first and second round picks are higher than undrafted players in the jump categories, but practically the same.
 
-This brief EDA does bring some interesting questions. If many of the performances between drafted and undrafted players are similar, then they may not have any impact on draft decisions at all. If you have two identical performers, and one player is drafted while the other isn't, there are likely other confoudning variables that GMs are using to determine which players will be added to their team each year.
-
+## Conclusion
+This brief EDA does bring some interesting questions. If many of the performances between drafted and undrafted players are similar, then they may not have any impact on draft decisions at all. If you have two identical performers, and one player is drafted while the other isn't, there are likely other confounding variables that GMs are using to determine which players will be added to their team each year.
 
 ## THANK YOU NBA FOR LETTING ME USE YOUR DATA!
 Like in the Terms of Use, HERE IS A VERY OBVIOUS AND CLEAR INDICATOR that I could not have this data without the NBA! Thank you!
-
-Included <a href="https://github.com/mfaulconer/Stat386ProjCode" target="_blank">here</a> is a link to my dataset!
