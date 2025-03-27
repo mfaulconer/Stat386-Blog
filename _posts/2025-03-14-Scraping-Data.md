@@ -48,7 +48,7 @@ There are a total of 237 observations and 13 variables in the dataset.
 | Shuttle Run (seconds) | float64 |
 | Three Quarter Sprint (seconds) | float64 |
 | Standing Vertical Leap (inches) | float64 |
-| Max Vertical Leap (inches) float64 |
+| Max Vertical Leap (inches) | float64 |
 | Year | int64 |
 | Team | object |
 | Affiliation | object |
