@@ -19,13 +19,13 @@ Across all the years in my dataset, I found there to be little to no difference 
 
 <iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Lane_Agility_Comparison.html" width="600" height="400" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
 
-<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Shuttle_Run_Comparison.html" width="600" height="400"></iframe>
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Shuttle_Run_Comparison.html" width="600" height="400" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
 
-<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Three_Q_Comparison.html" width="600" height="400"></iframe>
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Three_Q_Comparison.html" width="600" height="400" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
 
-<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Standing_Bar_Comparison.html" width="600" height="400"></iframe>
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Standing_Bar_Comparison.html" width="600" height="400" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
 
-<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Approach_Bar_Comparison.html" width="600" height="400"></iframe>
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Approach_Bar_Comparison.html" width="600" height="400" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
 
 Across all four years and all three groups of draftees, there is no noticeable differences between the average performances. There is a small outlier for first round picks in 2021 jump tests, but that is the only difference. To further confirm this observation, I conducted a simple test to compare the means of players drafted in the first and second rounds. Across all four years, the only significant difference was found to be in the Lane Agility Test, where round one picks were an average of 0.144 seconds faster than round two picks. Each other test had no significant difference.
 
