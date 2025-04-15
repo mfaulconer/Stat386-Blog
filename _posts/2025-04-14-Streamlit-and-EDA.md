@@ -19,13 +19,21 @@ Across all the years in my dataset, I found there to be little to no difference 
 
 <div style="display: flex; justify-content: center;">
 <iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Lane_Agility_Comparison.html" width="600" height="400"></iframe>
+<div>
 
+<div style="display: flex; justify-content: center;">
 <iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Shuttle_Run_Comparison.html" width="600" height="400"></iframe>
+<div>
 
+<div style="display: flex; justify-content: center;">
 <iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Three_Q_Comparison.html" width="600" height="400"></iframe>
+<div>
 
+<div style="display: flex; justify-content: center;">
 <iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Standing_Bar_Comparison.html" width="600" height="400"></iframe>
+<div>
 
+<div style="display: flex; justify-content: center;">
 <iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Approach_Bar_Comparison.html" width="600" height="400"></iframe>
 <div>
 
