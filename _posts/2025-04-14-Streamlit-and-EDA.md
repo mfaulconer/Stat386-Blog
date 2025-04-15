@@ -31,6 +31,6 @@ Across all the years in my dataset, I found there to be little to no difference 
 |-----------|------| 
 | Lane Agility Time (seconds) | -0.144 seconds | Yes |
 | Shuttle Run (seconds) | -0.0585 seconds | No |
-| Three Quarter Sprint (seconds) | -0.008 | No |
-| Standing Vertical Leap (inches) | 0.620 | No |
-| Max Vertical Leap (inches) | 0.804 | No |
+| Three Quarter Sprint (seconds) | -0.008 seconds | No |
+| Standing Vertical Leap (inches) | 0.620 inches| No |
+| Max Vertical Leap (inches) | 0.804 inches | No |
