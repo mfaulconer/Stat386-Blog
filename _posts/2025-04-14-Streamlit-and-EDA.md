@@ -47,7 +47,7 @@ Using my app, you can look deeper into the relationships between positions and N
 
 My app also includes a filter to look at team specific traits. Type in any NBA team, and each of their draft picks' combine results will be pulled into a table. Filter further by just looking at specific years. Do certain teams have a noticable trend in the skills they draft for? 
 
-These are just some ideas of further analysis or questions you can use my data for. Feel free to access my streamlit app here and start exploring!
+These are just some ideas of further analysis or questions you can use my data for. Feel free to access my streamlit app <a href="https://maryellen-faulconer-nba-combine.streamlit.app/" target="_blank">here</a> and start exploring!
 
 
 ## Wrapping Up
