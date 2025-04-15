@@ -53,6 +53,11 @@ Note: For running tests (Lane Agility, Shuttle Run, and Three Quarter Sprint, a 
 
 While I have provided some plots to visualize the data, I have also created an app using streamlit! 
 
+Using my app, you can look deeper into the relationships between positions and NBA Combine Test performance. Simply select a position and one or more test categories, and you can see the distributions of performances across the dataset. Do guards and forwards tend to run faster than centers? Is there significant differences within positional groups (Ex: Small forward, Power forward)?
+
+My app also includes a filter to look at team specific traits. Type in any NBA team, and each of their draft picks' combine results will be pulled into a table. Filter further by just looking at specific years. Do certain teams have a noticable trend in the skills they draft for? 
+
+These are just some ideas of further analysis or questions you can use my data for. Feel free to access my streamlit app here and start exploring!
 
 
 ## Wrapping Up
