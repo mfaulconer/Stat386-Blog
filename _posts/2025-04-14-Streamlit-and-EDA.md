@@ -17,15 +17,15 @@ Each year, 78 players are invited to the combine, but only 60 can be drafted int
 
 Across all the years in my dataset, I found there to be little to no difference in the average performance of skill assessments between players who end up being drafted in first and second rounds, and not at all. To visualize this difference, I have plotted the average performance for each group across the four years in my dataset.
 
-<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Lane_Agility_Comparison" width="600" height="400"></iframe>
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Lane_Agility_Comparison.html" width="600" height="400"></iframe>
 
-<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Shuttle_Run_Comparison" width="600" height="400"></iframe>
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Shuttle_Run_Comparison.html" width="600" height="400"></iframe>
 
-<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Three_Q_Comparison" width="600" height="400"></iframe>
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Three_Q_Comparison.html" width="600" height="400"></iframe>
 
-<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Standing_Bar_Comparison" width="600" height="400"></iframe>
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Standing_Bar_Comparison.html" width="600" height="400"></iframe>
 
-<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Approach_Bar_Comparison" width="600" height="400"></iframe>
+<iframe src="https://mfaulconer.github.io/Stat386-Blog/assets/plots/Approach_Bar_Comparison.html" width="600" height="400"></iframe>
 
 | Strength and Agility Assessment | Average Difference | Significant? |
 |-----------|------| 
